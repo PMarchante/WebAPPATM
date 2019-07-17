@@ -53,15 +53,10 @@ namespace WebAPPATM
             {
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=Home}/{action=Index}/{id?}");
+                    template: "{controller=Home}/{action=Login}/{id?}");
             });
 
-            app.UseMvc(routes =>
-            {
-                routes.MapRoute(
-                    name: "default",
-                    template: "{controller=Home}/{action=Privacy}/{id?}");
-            });
+            app.UseFileServer();
         }
     }
 }
