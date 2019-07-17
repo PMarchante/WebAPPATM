@@ -25,5 +25,10 @@ namespace WebAPPATM.Controllers
             return View();
         }
 
+        public IActionResult ForgotPW()
+        {
+            return View();
+        }
+
     }
 }

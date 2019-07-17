@@ -1,10 +1,24 @@
-﻿div {
-    margin-top:500px;
+﻿body {
+    background: #F3F300;
+    background: -moz-linear-gradient(left, #F3F300 0%, #F36E00 49%, #009292 100%);
+    background: -webkit-linear-gradient(left, #F3F300 0%, #F36E00 49%, #009292 100%);
+    background: linear-gradient(to right, #F3F300 0%, #F36E00 49%, #009292 100%);
+}
+div {
+    
+    margin: auto;
     text-align:center;
     align-content: center;
-    padding 50px 50px 50px 50px;
+    padding: 150px 50px 150px 50px;
+    
     
 }
-
+form {
+    display: inline-block;
+    border: 5px solid #000000;
+    border-radius: 24px;
+    padding: 150px;
+    background:white;
+}
 
 
